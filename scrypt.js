@@ -15,12 +15,12 @@ if (isNaN(edad) || edadInput === "" || edadInput === null) {
     
     if (edad < 18) {
         // Mensaje para menores de edad
-        const mensajeMenor = `Hola ${nombre}, eres menor de edad. ¡Sigue aprendiendo y disfrutando del código!`;
+        const mensajeMenor = `Hola ${nombre}, eres menor de edad.`;
         alert(mensajeMenor);
         console.log(mensajeMenor);
     } else {
         // Mensaje para mayores de edad (18 o más)
-        const mensajeMayor = `Hola ${nombre}, eres mayor de edad. ¡Prepárate para grandes oportunidades en el mundo de la programación!`;
+        const mensajeMayor = `Hola ${nombre}, eres mayor de edad.`;
         alert(mensajeMayor);
         console.log(mensajeMayor);
     }
